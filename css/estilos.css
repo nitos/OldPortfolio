@@ -1,0 +1,275 @@
+body { margin: 0 auto; position: relative; margin-bottom: 30px;}
+main {font-size: 19px; line-height: 28px;}
+.body { width: 80%; }
+
+h3 {margin-top: 2em; line-height: 10px;}
+
+main.body img {max-width: 100%; }
+body.caso {padding-bottom: 80px;}
+#newsletter {     
+	margin-top: 5px;
+    right: 10px;
+    top: -45px;
+    position: absolute;
+    display: inline-block;
+    background: #2fc3ed;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none; }
+#newsletter:hover { text-decoration: underline; }
+
+
+p.image {text-align: center;}
+
+header {margin:50px auto; width: 100%; color: #212e2f; padding-left: 20px;}
+header::after {content:''; position: relative; display: block; width: 126%; 
+ height: 130px; z-index: 1; background-color: rgba(255, 99, 71, 0.93); left: -19%; top:90px;
+}
+
+header .imagen-rrss {float: left; position: relative; z-index: 5; width: 100%;}
+header.body img {width: auto;  
+	-webkit-box-shadow: 3px 2px 37px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 2px 37px -16px rgba(0,0,0,0.75);
+	box-shadow: 3px 2px 37px -16px rgba(0,0,0,0.75);}
+
+a {color: #dd4235; padding: 2px 3px 4px; }
+a:visited {color: #6c9c9a;}
+a:hover {color: #fc542d;}
+
+header.imagen-rrss .rrss li {margin: 0;}
+
+header.body .texto {width: 100%; margin-top: -15px;  float: left; /*padding-left: 70px;*/ position: relative; z-index: 2;}
+header.body h1 {font-size: 1.9em; line-height: 1.3em;}
+header.body h3 {font-size: 1.4em; margin-top: -10px;}
+header.body p {font-size: 1.3em;  /*color: #f2ffe5;*/ width:100%;}
+
+ul.rrss {margin:0; padding:0; display: inline-block;}
+ul.rrss li {display:inline-block; float: left; margin: 5px; width: 30px; height: 23px;}
+.rrss li a {
+	display: block;
+	background-image: url('../img/rrss.png');
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background-size: 630%;
+}
+.rrss li a.twitter {
+	background-position: -4px -3px;
+    width: 13px;
+    height: 11px;
+}
+
+.rrss li a.twitter:hover{
+	background-position: -4px -22px;
+    width: 13px;
+    height: 11px;
+}
+.rrss li a.ln {
+    background-position: -35px -3px;
+    width: 13px;
+    height: 11px;
+}
+
+.rrss li a.ln:hover {
+    background-position: -35px -22px;
+    width: 13px;
+    height: 11px;
+}
+
+.rrss li a.fb{
+	background-position: -67px -3px;
+    width: 13px;
+    height: 11px;
+}
+
+.rrss li a.fb:hover {
+    background-position: -67px -22px;
+    width: 13px;
+    height: 11px;
+}	
+
+
+.rrss li a.email{
+	background-position: 25px -4px;
+    width: 13px;
+    height: 11px;
+}
+
+.rrss li a.email:hover {
+	background-position: 25px -23px;
+    width: 13px;
+    height: 11px;
+}	
+
+section, main {width: 90%; margin:0 auto; clear: both; display:block; }
+section h2, main h2 { color: #FF6D53;}
+section h2:before, section h2:after {content: " - "; position: relative;} 
+section p {text-align: left;}
+
+section p.descripcion { margin:0 auto 40px; text-align:left;}
+section div.proyectos p {text-align: left;}
+section div.proyectos div {float: left; margin-bottom: 50px; height: 380px;}
+section div.proyectos div a {text-decoration: none;}
+section div.proyectos div h3 { 
+	margin: 0;
+    line-height: 1.3em;
+    margin-top: -9px;
+    border: 4px solid rgba(255, 109, 83, 0.1);
+    color: #FF6D53;
+    padding: 2px 9px;
+    width: 95%;
+    border-radius: 3px;
+    }
+body.caso a.live {
+	 padding: 6px 9px;
+    text-decoration: none;
+    border: 4px solid rgba(255, 109, 83, 0.1);
+    color: #FF6D53;
+}
+section div.proyectos div h3:hover, body.caso a.live:hover { 
+	background: rgba(255, 109, 83, 0.9);
+	transition: 0.1s linear;
+	color: #fff;
+   }
+section div.proyectos div p {
+	width: 96%;
+    margin: 0;
+    margin-top: -7px;
+    line-height: 1.4em;
+    left: 2%;
+    position: relative;
+}
+section div.proyectos img {width: 100%; }
+
+section.body.inv {
+    border-top: 2px dashed #FF6D53;
+    padding: 50px 0;
+    min-height: 280px;
+}
+
+section.body.footer {
+    border-top: 2px dashed #FF6D53;
+    padding-top: 30px;
+    display: table;
+}
+
+section.body.footer p {
+	line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+section.body.inv h2 {  margin-top: -10px; margin-bottom: 30px; }
+
+section div.tercios {margin:0 auto; height: auto; display: block; width: 100%;  min-height: 180px; float: left; background: rgba(243, 243, 243, 0.34); border: 1px solid rgba(0, 0, 0, 0.18); margin: 0 1.5% 10px;}
+.tercios h3 { margin-left: 21px; margin-top: 1.4em;}
+section.community {margin-top:50px;}
+
+section.footer .perfil {display: none;}
+section.footer .perfil img {width: 100%;}
+section.footer .bio {width: 100%; float: right;}
+
+.anuncio {background: rgba(243, 243, 243, 0.34); padding:10px 30px; width: 81%; margin:0 auto;
+    border: 2px solid rgba(255, 109, 83, 0.22);
+    margin-bottom: 30px;}
+.anuncio h1 { margin: 0 0 7px;}
+.anuncio span { font-weight: 300; font-style: italic; line-height: 1.4em;}
+
+
+.servicios {display: inline-block;}
+.servicios .available {margin-left: 20px; border-left: 3px solid #ff6d53; margin: 30px 10px;}
+.servicios .available h3 { margin-left: 15px; line-height: initial; display: block; margin-bottom: 0;}
+.servicios .available p {  margin-top: 6px;  padding-left: 15px; }
+
+.servicios .tercios { width: 85%; padding: 5px 30px; margin: 0 1% 10px; background: rgba(243, 243, 243, 0.44); border: 1px solid rgba(255, 109, 83, 0.22);}
+.servicios .tercios h3 {margin-left: 0;}
+
+.servicios .tercios span {
+    background: rgba(255, 109, 83, 0.14);
+    padding: 2px 4px;
+    border-radius: 4px;
+    line-height: 1.5em;
+    word-break: break-word;}
+
+
+@media (min-width: 650px) {
+	header.body .texto {margin-top: -30px; }
+	header::after { top: 80px; height: 100px;}
+	header .imagen-rrss {float: left; top: 30px; width: 31%;}
+	header .imagen-rrss img {width: 100%;}
+	header.body p { color:#fff;  }
+	header.body .texto { top: 23px; width: 57%; margin-left: 50px; font-size: 0.9em;}
+	section div.proyectos div {width: 95%;}
+	header + section, main.body {clear: both; position: relative; top: 40px;}
+	section div.involucrado { width: 65%; padding-left: 20%; }
+	ul.rrss li { margin: 0px; width: 39px; }
+	section div.proyectos div {height: 440px;}
+	.anuncio {width: 91%; }
+	header {padding-left: 50px;}
+	.servicios .tercios { width: 82%; padding: 5px 30px; margin: 0 1% 10px;}
+
+}
+
+
+@media (min-width: 800px) {
+	section p.descripcion {font-size: 1.2em; margin:0 0 100px;}
+	section div.proyectos div:nth-child(2n+1) {clear: both; }
+	section div.proyectos { position:relative; margin: 70px 0; bottom: 50px;}
+	section div.proyectos div {width: 46%; margin: 0 2%;}
+	section div.involucrado .tercios { display: block; width: 33%;}
+	.inv { top: 20px; position: relative; }
+	section.community {margin-top: 80px;}
+	main.body h2 { text-align: left;}
+	.left {float: left; width: 60%; margin-right: 3%;}
+	.left img {width: 100%;}
+	header.body .texto { top: 15px; font-size: 1em;}
+	ul.rrss li { margin: 4px;  width: 41px;}
+	header.body p { width: 416px; padding-top: 5px;}
+	section div.tercios { width: 29%; padding: 0px 2px;}
+
+	.servicios .tercios { width: 39%; padding: 5px 20px; margin: 0 2% 10px; min-height: 215px;}
+	.servicios div.tercios:last-child {  width: 90%; height: 100px; min-height: 140px;}
+
+	section.footer .perfil {width: 26%; max-width: 250px; float: left; margin-top: 25px; display: block; }
+	section.footer .bio { padding-left: 4%; width: 70%; float: left;}
+
+}
+
+@media (min-width: 980px) {
+	header .imagen-rrss { margin-left: 0;}
+	header.body .texto {width: 55%;}
+	header + section { top: 30px; }
+	section p.descripcion { width: 90%;  margin-left: 2%;}
+	section h2 {margin-left: 2%; text-align: left;}
+	header + section { top: 80px; }
+	main.body { width: 80%; margin-left: 10%;}
+	.servicios .tercios { width: 40.4%; }
+
+}
+
+@media (min-width: 1100px) {
+	header .imagen-rrss {width: 32%; top: 60px; }
+	header .imagen-rrss img {width: auto;}
+	header.body .texto {top:125px; width: 45%;}
+	header::after {top: 190px; margin-left: -20px;}
+	main.body { width: 55%; margin-left: 39.5%;}
+
+
+	.servicios .tercios, .servicios div.tercios:last-child { width: 26.4%; padding: 5px 20px; margin: 0 1% 10px; min-height: 210px;}	    
+
+}
+
+@media (min-width: 1300px) {
+	header .imagen-rrss {margin-right: 5%; width: 20%; }
+	section div.proyectos div { width: 29%; margin-bottom: 30px;}
+	section div.proyectos div:nth-child(2n+1) {clear: none;}
+	main.body { width: 55%; margin-left: 33.5%;}
+
+	.servicios .tercios, .servicios div.tercios:last-child { width: 27%; padding: 5px 20px; margin: 0 1% 10px; min-height: 190px;}	    
+
+
+
+}
+
+
+
+
